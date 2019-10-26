@@ -3,15 +3,17 @@
 
 - Superadmin
   ```bash
-  Username: superadmin@fake.com  
-  Password: 123456
+  'email'    => 'superadmin@mail.com',
+  'password' => bcrypt('123456'),
   ```
   
 - User
   ```bash
-  Username: user@fake.com  
+  Username: user@mail.com  
   Password: 123456
   ```
+  
+  
   
 
 
